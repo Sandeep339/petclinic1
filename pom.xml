@@ -13,6 +13,17 @@
     <version>1.5.4.RELEASE</version>
   </parent>
   <name>petclinic</name>
+	
+	<profiles>
+         <profile>
+		     <id>sonar</id>
+			 <properties>
+                <sonar.host.url>
+                    http://localhost:9000
+                </sonar.host.url>
+              </properties>      
+		 </profile>
+   </profiles>
 
   <properties>
 
